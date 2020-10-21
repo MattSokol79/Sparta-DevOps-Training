@@ -202,7 +202,7 @@ Remember...
 END OF CONTENT BEFORE LUNCH
 
 
-## The Project Environments
+# The Project Environments - Everything till Stakeholders 
 - Understand the difference between BAU (Business as Usual) and Project work
 - Have a clear understanding of a project life cycle and models 
 
@@ -314,16 +314,11 @@ Software Development Lifecycles
 
 All stages are a PROJECT LIFECYCLE:
 
-- Stage 1 - Initiating, Start of Planning
- 
+- Stage 1 - Initiating, Start of Planning 
 - Stage 2 - Planning
-
 - Stage 3 - Start of the development cycle i.e. planning, executing, monitoring and controlling
-
 - Stage 4 - Same as Stage 3, finishing the lifecycle
-
 - Stage 5 - Closing
-
 
 ### What is DevOps? Sparta video - WATCH IT AGAIN AS ITS VERY GOOD FOR INTERVIEWS ETC, SHOULD BE ON TEAMS
 Developer responsible for new product features, bug fixes etc etc.
@@ -371,10 +366,77 @@ Projects are difficult
 - RESPECT all of your peers
 - Become TRUSTWORTHY
 
-EXERCISE - Why projects Fail
-in groups research some high profile projects that have failed - one project per group
-You should then present your findings back to the group using powerpoint and detailing
-- who was running it and when
-- what were the project goals
-- why the project failed
-- what was the impact of this going wrong
+## Essential Project Knowledge
+### Business Cases
+In order to get a project going, you need many things:
+- Justification for the proposed project needed to obtain authorisation from the Board
+
+1. Expected benefits/disadvantaged
+2. Execution timeline - When do you get a return on your investement
+3. Executive Summary
+4. Investement appraisal
+5. Solutions/Options
+6. Major risks
+7. Stakeholders/communication plan
+
+Examples of basic techniques for analysis - Good techniques to build a business case
+- MOST
+- Boston Box
+- PESTLE
+- SWOT - Strengths, Weaknesses, Opportunities
+- Workshops
+- Interviews
+- Questionnaires
+
+This also includes the initiation of requirement gathering:
+- An essential part of your academy development
+Your stakeholders are important
+
+### Return on Investment (ROI)
+How much money will you make from your investment into a project? When will we get it? 
+- It all comes down to the worth of the product to the people who need it
+- Once you have paid off all the investments and started to make profit, that is a return of investment
+
+
+### Risk
+What is Risk? Why is it so important to identify risk early in any project?
+
+Sources of risk:
+- Techology
+- Team
+- Scope
+- Business
+- Economy
+- Competition
+
+Dealing with Risk
+- Avoidance
+- Transfer
+- Reduce
+- Accept
+- Exploit
+- Share
+- Enhance
+- Ignore
+
+### Stakeholders
+- Customers
+- Partners
+- Suppliers
+- Regulators
+- Employees
+- Managers
+- Owners
+- Competitors
+
+Power/Interest Grid - DISCORD PIC
+- Best case scenario - have powerful stakeholders who are deeply interested in the project
+
+Stakeholder Attitudes
+- Champions - fight for the cause of the project
+- Supporters - support the project and speak favourably
+- Neutral - Ok if it works its fine, if it doesnt then whatever
+- Critic - Negative, needs to be forced onto the positive side
+- Opponent - dont want you to do the project
+- Blocker - v negative
+
