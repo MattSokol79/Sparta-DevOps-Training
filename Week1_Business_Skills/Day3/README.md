@@ -1,5 +1,5 @@
 # Day 3
-## Critical Thinking & Debating 
+## Critical Thinking & Debating (15 QUESTIONS ON CRITICAL THINKING) 
 ### Objectives
 - To understand what critical thinking is 
 - To developed techniques for thinking, reading and writing critically
@@ -151,7 +151,7 @@ E.g. When a colleague states that because we doubled profits this year we will d
 - Morally flawed - Arguments which go against the code of ethics and morals
 - Correlation rather than causation - When a speaker suggests a link between two events suggesting one lead to the other but 
 without sufficient evidence
-- Failure to deliver promises - A speak might fail to complete a task they promised to deliver
+- Failure to deliver promises - A speaker might fail to complete a task they promised to deliver
 - Straw man - The speaker may intentionally introduce an argument against them and rebut it to strenghthen their position
 - Contradiction - A speakers argument may contradict their previous argument and reduce their credibility.
 E.g. When a colleague presents evidence showing only positive responses from a satisfaction survey but these contradict the 
@@ -161,6 +161,40 @@ its more complicated and problematic than the speaker suggested
 
 ### The Art of Persuasion (Small topic)
 
+Three pillars of rhetoric:
+- Ethos - Appealing thorugh authority or credibility (How well does the presenter show that he is credible and knowledgable about
+the subject)
+- Pathos - Appealing through emotional empathy (Use emotions) 
+- Logos - Appealing through logic and reasoning (Use FACTS)
+A combination of these 3 can be used depending on the situation 
 
+BEING HUMBLE is an extremely beneficial attribute when persuading others
+(Ads again - look at sample size e.g. 9 out of 10 dentists recommend when the sample size was 77)
+(Ads - Bicycles picture utilising PATHOS or emotions to influence us and agree with them that they need more space on the road)
+(Ads - Smoking kills - picture is very strong with the gun and cigs as bullets, so utilising emotions/facts too to influence you)
 
+### Important Skills of Debating
+- Keep points relevant
+- Provide evidence and not personal opinion
+- Remain objective
+- Consider the audience's attention span
+- Use notes but keep them brief and well organised
 
+Do - BE LIKE OBAMA
+- Be prepared
+- Stay calm
+- Speak clearly and confidently
+- Keep your language simple 
+- Active listening
+
+Don't - BE LIKE TRUMP
+- Falsify or alter evidence
+- Publicly disagree wiith the decision
+- Raise your voice or attack a speaker rather than the motion
+- Act aggressively or offensively
+- Interrupt others
+- Disagree with facts or obvious truths
+
+Remember...
+- It's OK to make mistakes
+- It's OK to agree
