@@ -53,13 +53,13 @@ all data on the cloud, took them a long time, but now they are extremely success
 ### 6 thinking hats again - IMPORTANT
 
 - Developed as a parallel thinking process which enables people to redirect their thoughts into different areas i.e. hats
-- Each represents a different factor or criteria of thinking
--- White - Information needed
--- Yellow - Brightness, optimism
--- Black - Judgement, critical thinking
--- Red - Emotions and feelings
--- Green - Creativity, an opportunity to express new concepts etc.
--- Blue - Thinking, its the control system that ensures all hats are utilised where needed
+ Each represents a different factor or criteria of thinking
+- White - Information needed
+- Yellow - Brightness, optimism
+- Black - Judgement, critical thinking
+- Red - Emotions and feelings
+- Green - Creativity, an opportunity to express new concepts etc.
+- Blue - Thinking, its the control system that ensures all hats are utilised where needed
 
 ### Incorrect Attitudes
 Neither of these ways of thinking are correct and will prevent you from embracing critical thinking with an open and objective mind
@@ -198,3 +198,183 @@ Don't - BE LIKE TRUMP
 Remember...
 - It's OK to make mistakes
 - It's OK to agree
+
+END OF CONTENT BEFORE LUNCH
+
+
+## The Project Environments
+- Understand the difference between BAU (Business as Usual) and Project work
+- Have a clear understanding of a project life cycle and models 
+
+### Project vs BAU.
+Examples:
+- Sparta Global BAU example (9am start training 5.30 end training - BAU, it this doesnt change its business as usual).
+- Sparta Global Project example (Java, C#, Testing, Automated Tested, DevSecOps, DevOps - Project, specific things that are
+happening, what else is happening).
+
+BAU is the normal execution of a standard operations within an organisation
+
+Project is unique and transient with a desired outcome
+
+- BAU - organisational strategy
+
+### ALL MODELS ON DISCORD AS PICS
+
+- Project Cycle...
+1. Initiation
+2. Planning
+3. Executing - (Working everyday at the academy)
+4. Monitoring & Controlling - (Being monitored and tested)
+5. Closing and back to..
+1. Initiation
+
+- Triple Constraint triangle (SCOPE relies on TIME, QUALITY AND COST)
+1. Time (Done quickly? = lower quality and may cost more)
+2. Quality
+3. Cost
+
+- POPIT model aka. Holistic Triangle
+1. Organisation
+2. Technology
+3. Process
+4. People
+The key aspect connecting us all is... Technology = look at picture
+
+Benefits of a project being managed well?
+- Delivery is efficient
+- Standard of content is higher
+- Predict costs, time and quality of the project more accurately
+- People involved will be less stressed and will generally be more happy
+
+
+## Software Development Lifecycles
+The project lifecycle encompasses all the activies of the project
+
+Examples of Methodologies:
+- Waterfall
+- V-model
+- Agile
+
+Choosing methodology depends on the project and it can often be the case that a company may change methodologies when working
+so it is important to understand them all
+
+### Waterfall - (Attach picture)
+
+1. System Requirements
+2. Software Requirements
+3. Analysis
+4. Program Design
+5. Coding
+6. Testing
+7. Operations
+
+From 7. Operations you can go back to 4. Program Design
+From 4. Program design can go back to 2. System requirements and then follow the water fall again
+
+Disadvantages
+- Takes a long time and when you decide that something is not good enough it is difficult to go back REALISTICALLY
+- Can't test between 
+
+### V-Model 
+Works in V shape, go left to right
+
+1. Requirement specification
+2. Functional Specification
+3. Technical Specification
+4. Program Specfication
+5. Coding
+6. Unit Testing
+7. Integration Testing - Is OS compatible, ports! Which ports will it work
+8. System Testing - Similar to integration, does it work on each OS 
+9. Acceptance Testing - Is it ready to go
+
+### Agile (Iterative)
+Cycle, constant entry and exit
+
+Enter
+1. Plan (Design)
+2. Do (Code)
+3. Check (Test)
+Exit - If improvements needed, go again
+
+### Scrum FRAMEWORK (TRELLO?) - INTERVIEWS! Difference between SCRUM and Agile etc. 
+
+1. Product Backlog
+2. Sprint Planning
+3. Sprint Backlog
+4. Daily SCRUM, cycle between the spring and backlog (e.g. Trello, week sprint, then done and cycle between them)
+Technically, we are currently using an Agile methodology as well as SCRUM to do work with Trello
+
+Agile is a methodology (used in a development environment) SCRUM is NOT a methodology it is a FRAMEWORK to manage the 
+methodology. Essentially as above, SCRUM is using Trello to manage our work, it is very useful to make sure that tasks
+get done.
+
+### Management Plans and SDLCs
+Software Development Lifecycles
+
+All stages are a PROJECT LIFECYCLE:
+
+- Stage 1 - Initiating, Start of Planning
+ 
+- Stage 2 - Planning
+
+- Stage 3 - Start of the development cycle i.e. planning, executing, monitoring and controlling
+
+- Stage 4 - Same as Stage 3, finishing the lifecycle
+
+- Stage 5 - Closing
+
+
+### What is DevOps? Sparta video - WATCH IT AGAIN AS ITS VERY GOOD FOR INTERVIEWS ETC, SHOULD BE ON TEAMS
+Developer responsible for new product features, bug fixes etc etc.
+Once products are done you need to deploy them into production
+
+Operations teams are responsible for managing services/servers and that everything is working correctly
+
+At the moment development and operations are working separately and blame eachother for issues within development or delivery
+
+DevOps is breaking this up and have the two teams work together, share responsibilites, automate pipeline and deploying infrastructure
+as code. Improves lifecycle of product - more money for the companies
+
+These practices are
+- Continous integration - local to cloud (git)
+- Continous deployment - 
+- Continous Delivery - Work with cloud, Ci/Cd, jenkins, git etc is continous delivery to check for differences 
+
+Benefits of DevOps:
+- Faster time to market the product
+- Continous release cycles
+- Improved collaboration between teams
+- Automated coding
+
+### Notes on organisations, roles and general
+Many teams within one company, different departments e.g. sales, operations, talent etc.
+
+Attributes of mature teams
+- Co-located
+- Cross-functional roles (DevOps - understand both the development and the operations environment) 
+- Self-organising
+- Accountable and empowered
+- Test and learn feedback loops (Our Friday Tests)
+
+Every organisation pretty much has
+- BA - Business Analysts
+- QA - Quality Assurance
+- UX - Front-end
+- DEV - Developers
+- PM - Project Managers
+
+Projects are difficult
+- Create a POSITIVE atmosphere
+- Manage conflict INTELLIGENTLY
+- Have open and clear COMMUNICATION
+- RESPECT all of your peers
+- Become TRUSTWORTHY
+
+EXERCISE - Why projects Fail
+in groups research some high profile projects that have failed - one project per group
+You should then present your findings back to the group using powerpoint and detailing
+- who was running it and when
+- what were the project goals
+- why the project failed
+- what was the impact of this going wrong
