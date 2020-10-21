@@ -18,7 +18,7 @@
 
 ### Level of intellectual Skill
 Thinking triangle - Benjamin Blooms 
-
+![](thinking_triangle.jpg)
 - `From top` Evaluate - Make judgements about the value of info
 - Synthesise - Combine information or ideas into something new
 - Analyse - Make a methodical and detailed examination of something
@@ -76,7 +76,7 @@ ask both what happened and the only way to truly find out what happened, you nee
 the situation before jumping to any conclusions.
 
 - The Enquiry Cycle - Reflect - Enquire - Investigate - Create - Dicuss - Reflect - Enquire....
-
+![](enquiry_cycle.png)
 What questions might we ask when thinking critically? - e.g. What is the source of evidence?
 
 Things to consider:
@@ -259,7 +259,7 @@ Choosing methodology depends on the project and it can often be the case that a 
 so it is important to understand them all
 
 ### Waterfall - (Attach picture)
-
+![](waterfall.png)
 1. System Requirements
 2. Software Requirements
 3. Analysis
@@ -277,7 +277,7 @@ Disadvantages
 
 ### V-Model 
 Works in V shape, go left to right
-
+![](vmodel.png)
 1. Requirement specification
 2. Functional Specification
 3. Technical Specification
@@ -290,7 +290,7 @@ Works in V shape, go left to right
 
 ### Agile (Iterative)
 Cycle, constant entry and exit
-
+![](agile.png)
 Enter
 1. Plan (Design)
 2. Do (Code)
@@ -429,7 +429,8 @@ Dealing with Risk
 - Owners
 - Competitors
 
-Power/Interest Grid - DISCORD PIC
+Power/Interest Grid 
+![](power_influence.png)
 - Best case scenario - have powerful stakeholders who are deeply interested in the project
 
 Stakeholder Attitudes
