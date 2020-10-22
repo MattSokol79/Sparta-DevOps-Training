@@ -7,5 +7,5 @@ graduation I decided to further improve my skills in coding by completing course
 code in languages like javascript. When I began my research into the different roles available to me in the tech industry,
 I discovered DevOps which I found to be one of the most interesting roles I could pursue. The role stood out for me as I felt that
 could not only develop my skills in software development but also gain deeper knowledge in operations further broadening my skillset.
-Furthermore the role would allow me to work at the forefront of the tech industry as it is still a relatively novel role and the fact 
-that the role is in such high demand further attracted me to it. 
+Furthermore the role would allow me to work at the forefront of an involving industry as it is still a relatively novel role and 
+the fact that the role is in such high demand further attracted me to it. 
