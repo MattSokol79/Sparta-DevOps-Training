@@ -143,7 +143,3 @@ Getting attacked might result in your pc being infected:
 - REPORTING attacks
 
 BAMBOOHR familiarise with policies done by Sparta
-
-## Linux/BASH basics
-
-
