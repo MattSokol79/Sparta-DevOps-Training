@@ -145,7 +145,7 @@ Don't Say
 - I think that...
 - `MISSED SOME HERE`
 
-### `All fallacies are on Discord` Logical Fallacies (Issues/Problems with the opposing sides arguments) to look for 
+### Logical Fallacies (Issues/Problems with the opposing sides arguments) to look for 
 
 - False dichotomy - where the speaker forces the debate into two sides, though there are more options available
 E.g. When a colleague tells the team to decide between two new HR tools but you have heard of a cheaper and more efficient 
@@ -262,7 +262,7 @@ Examples of Methodologies:
 Choosing methodology depends on the project and it can often be the case that a company may change methodologies when working
 so it is important to understand them all
 
-### Waterfall - (Attach picture)
+### Waterfall
 
 ![](img/waterfall.png)
 
@@ -307,7 +307,7 @@ Enter
 3. Check (Test)
 Exit - If improvements needed, go again
 
-### Scrum FRAMEWORK (TRELLO?) - INTERVIEWS! Difference between SCRUM and Agile etc. 
+### Scrum FRAMEWORK (TRELLO) - IMPORTANT, Difference between SCRUM and Agile etc. 
 
 1. Product Backlog
 2. Sprint Planning
@@ -330,7 +330,7 @@ All stages are a PROJECT LIFECYCLE:
 - Stage 4 - Same as Stage 3, finishing the lifecycle
 - Stage 5 - Closing
 
-### What is DevOps? Sparta video - WATCH IT AGAIN AS ITS VERY GOOD FOR INTERVIEWS ETC, SHOULD BE ON TEAMS
+### What is DevOps? Sparta video - VERY USEFUL FOR FUTURE
 Developer responsible for new product features, bug fixes etc etc.
 Once products are done you need to deploy them into production
 
