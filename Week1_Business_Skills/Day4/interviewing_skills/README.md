@@ -6,7 +6,7 @@
 - A  Action - What did you do to complete the task 
 - R  Result - What was the result of your action
 
-** Articulate your answer using STAR with examples **
+**Articulate your answer using STAR with examples**
 
 This shows commitment and always relate to the job
 
@@ -14,7 +14,7 @@ This shows commitment and always relate to the job
 - A chance for you to give a good impression on the interview - sell yourself 
 
 ### Task
-** Create and Elevator pitch for maximum of 1 minute, present back to the group **
+**Create and Elevator pitch for maximum of 1 minute, present back to the group**
 
 - Introduction - name
 - Background - chemistry with some exposure to python especially in final year

@@ -1,5 +1,5 @@
 # Day 4
-##GDPR
+## GDPR
 
 Table held up by 4 legs:
 1. Core Competencies - 10 minute meeting every friday 
