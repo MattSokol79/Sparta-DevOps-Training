@@ -143,4 +143,115 @@ Most of the time we will work on DML, we wont really look at DCL or TCL.
 ### Creating a Database in Azure
 Reference the my_db_matt database
 
-VARCHAR(10) - MEANS (Up to 10 characters)
+### Data Types
+- VARCHAR(10) - MEANS (Up to 10 characters). Different lengths of characters, records MAX size.
+- CHARACTER or CHAR - Data must be at a fixed length.
+- INT - holds a whole number/integer value positive or negative.
+- DATE or TIME or DATETIME - Stores Date, Time or both date and time.
+- DECIMAL or NUMERIC - fixed precision and scale numbers
+- BINARY - used to store binary data such as an image or file
+- FLOAT - scientific use (very large numbers)
+- BIT - Equvalent to binary (0, 1, null)
+
+Exercise, what data type are the following examples:
+- Post Code - VARCHAR(8), 8 characters long in case the post code is 7 characters + a space
+- Phone number - VARCHAR(11) or CHAR, 11 as the length of the phone number
+- Birth Date - DATE
+- Weight in kg - DECIMAL(6, 4) this means 6 digits total, 4 digits after the decimal point so a value of e.g. 67.4929
+- Comments - VARCHAR(MAX), MAX meaning up to 8k characters. Normal VARCHAR is up to 255 characters
+
+
+Example:
+```
+ALTER TABLE film_table;
+ADD release_date DATE;
+```
+- Can be used to RENAME, MODIFY, ADD or DROP columns.
+
+```
+ALTER TABLE film_table;
+ALTER COLUMN file_name VARCHAR(N) NOT NULL
+```
+### Inserting Data into Tables
+```
+INSERT INTO film_table
+(
+film_name, film_type
+)
+
+VALUES
+(
+'The Hulk', 'Action'
+);
+```
+
+VARCHAR, CHAR and DATE all use quotes for their VALUES
+
+### NULL and Default
+Null means nothing, absence of data. Default, by default it will go to specific value
+
+A value can be NULL but NULL never equals NULL because NULL is an undefined value
+
+```
+CREATE TABLE film_table(
+	film_name VARCHAR(10) NOT NULL,
+	film_type VARCHAR(6) NOT NULL DEFAULT 0);
+```
+So a value cannot be NULL but it will be set to 0
+
+```
+CREATE TABLE people(
+person_id INT NOT NULL IDENTITY PRIMARY KEY,
+person_name VARCHAR(255) NOT NULL,
+height DECIMAL(7,3),
+is_happy BIT
+);
+```
+
+This makes the person_id a primary key with integer data type and cannot be null
+
+```
+UPDATE people
+	SET person_name='Mike'
+	WHERE person_id=2
+```
+This essentially changes the name of the person with person_id=2
+If you need to change the contents of a table use the UPDATE statement
+Beware of leaving out the WHERE clause, this will update the entire table.
+
+```
+DELETE FROM people
+WHERE person_id = 3;
+```
+DELETES a row with the person_id = 3
+
+
+## Syntax Info with Examples
+
+- `SP_HELP <name>`
+  - Shows the structure of a table
+  - Example: `SP_HELP sample`
+- `CREATE DATABASE <name>`
+  - Creates a database with a specified name
+  - Example: `CREATE DATABASE my_db`
+- `CREATE TABLE <name> {column type}`
+  - Creates a table with a specified column name and type
+  - Example: `CREATE TABLE sample { example_name VARCHAR(10) }`
+- `USE <name>`
+  - Uses specified database for some data manipulation
+  - Example: `USE my_db`
+- `SELECT <object> FROM <name>`
+  - Selects a specific object / column / row from a specific table
+  - Example: `SELECT * FROM sample`
+- `ALTER TABLE <name> ALTER <column/row> <name> <type>`
+  - Modifies the table's column or row to a different data type
+  - Example: `ALTER TABLE sample ALTER COLUMN some_name VARCHAR(255)`
+- `INSERT INTO <name> (column_1, column_2) VALUES ('value_1', 'value_2')`
+  - Inserts some data into the columns
+  - Example: `INSERT INTO sample (name, surname) VALUES ('John', 'Smith')`
+- `UPDATE <name> SET <column> = <new value> WHERE <column> = <existing value>`
+  - Updates data in a specific table based on value in a column
+  - Example: `UPDATE sample SET name = 'Dev' WHERE name = 'Hubert'`
+- `DELETE FROM <name> WHERE <column> = <value>`
+  - Removes a row based on a value in a column
+  - Example: `DELETE FROM sample WHERE name = 'Dev'
