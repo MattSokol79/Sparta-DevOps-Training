@@ -100,7 +100,7 @@ key. An then another thing can be defined in the second table and then that key 
 key.
 
 ### Designing a Database
-**Database Tools*
+**Database Tools**
 - Microsoft Access
 - SQL Server Editions (WHAT WE WILL USE)
 - PostgreSQL - OPEN SOURCE i.e. completely free
@@ -111,7 +111,36 @@ key.
 - Oracle
 - And others..
 
+## Structured Query Language
+- Data manipulation langauge
+- Data definition 
+- Data control language
+- Transaction control language
 
+Most of the time we will work on DML, we wont really look at DCL or TCL.
 
+**DML:**
+- Select
+- Insert
+- Update
+- Delete
 
+**DDL:**
+- Create
+- Alter
+- Drop
+- Truncate
 
+**DCL:**
+- Grant
+- Revoke
+
+**TCL:**
+- Commit
+- Rollback
+- Savepoint
+
+### Creating a Database in Azure
+Reference the my_db_matt database
+
+VARCHAR(10) - MEANS (Up to 10 characters)
