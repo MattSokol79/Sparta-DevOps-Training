@@ -127,3 +127,4 @@ SELECT CompanyName AS 'Company Name', City + ',' + Country AS 'City' FROM Custom
 ```sql
 SELECT CompanyName AS 'Company Name', City + ',' + Country AS 'City' FROM Customers WHERE Region IS NULL
 ```
+
