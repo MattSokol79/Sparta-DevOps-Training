@@ -128,3 +128,24 @@ SELECT CompanyName AS 'Company Name', City + ',' + Country AS 'City' FROM Custom
 SELECT CompanyName AS 'Company Name', City + ',' + Country AS 'City' FROM Customers WHERE Region IS NULL
 ```
 
+## Arithmetic Operators
+**Table below shows the operators that can be used in the SELECT clause**
+
+![](arithmetic.PNG)
+
+
+```sql
+SELECT UnitPrice, Quantity, Discount, UnitPrice * Quantity AS 'Gross Total' FROM [Order Details];
+```
+
+```sql
+SELECT UnitPrice, Quantity, Discount, UnitPrice * Quantity AS 'Gross Total' FROM [Order Details] ORDER BY 'Gross Total' DESC
+```
+DESC is short for descending 
+ASC is short for ascending 
+
+## String Functions 
+
+![](stringfunctions.PNG)
+
+
