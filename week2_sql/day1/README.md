@@ -280,14 +280,14 @@ For video explanation with examples:
   - E.g. A table that records data on a book and its authors and it contains columns called (Author 1, Author 2, Author 3) is
 repeating the author attribute so is not 1st Normal Form.
 
-![](1stnormalform.png)
+![](1stnormalform.PNG)
 
 ### 2nd Normal Form
 - A database is in Second Normal form when the following conditions are satsifeid
   - It is in 1NF
   - All non-key attributes are fully functional dependent on the Primary Key
 
-![](2ndnormalform.png)
+![](2ndnormalform.PNG)
 
 ### 3rd Normal Form
 - It is in 2NF
@@ -295,7 +295,7 @@ repeating the author attribute so is not 1st Normal Form.
   - E.g. A Transitive Functional Dependency is when a non-key column is Functionally Dependent on another non-key column,
 which is Functionally Dependent on the Primary Key
 
-![](3rdnormalform.png)
+![](3rdnormalform.PNG)
 
 
 
