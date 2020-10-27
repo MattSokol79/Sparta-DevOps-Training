@@ -52,7 +52,7 @@ I.e. connect tables by using key words from other tables to link them together a
 
 - You DO NOT want duplicated data in numerous different tables as that takes space and is not needed
 
-![](DIAGRAM OF THE THINGS BELOW)
+![](erd.jpg)
 
 - **One to One** - NOT used that much, but can be used anyway. E.g. table of user (user_id, First and last name and email) connected to table of
 NI number with (ID, user_id and NI_number)
