@@ -96,34 +96,34 @@ Wildcards can be used as a substitute for any other characters in a string when 
 
 - LIKE allows for the use of wildcards and is not case sensitive
 
-**We can use the wildcard % to bring back any Products that begins with Ch**
+**We can use the wildcard % to bring back any Products that begins with Ch:**
 ```sql
 SELECT ProductName FROM Products WHERE ProductName LIKE 'Ch%'
 ```
 
-**If we needed to find regions ending in A**
+**If we needed to find regions ending in A:**
 ```sql
 SELECT * FROM Customers WHERE Region LIKE '_A'
 ```
 
-**If we needed to find customers in two specific named regions**
+**If we needed to find customers in two specific named regions:**
 ```sql
 SELECT * FROM Customers WHERE Region IN ('WA', 'SP')
 ```
 
-**If we need to find territories in a range of IDs**
+**If we need to find territories in a range of IDs:**
 ```sql
 SELECT * FROM EmployeeTerritories WHERE TerritoryID BETWEEN 06800 AND 09999
 ```
 
-**Concatenate using + along with single quotes, essentially can edit the names of the columns to nice names**
+**Concatenate using + along with single quotes, essentially can edit the names of the columns to nice names:**
 - Alias (rename) column using AS (optional) and double quotes (if more than one word) to change column headers
 - In this example we concatenate to and from a comma and a space, e.g. "London, UK" in one resulting column
 ```sql
 SELECT CompanyName AS 'Company Name', City + ',' + Country AS 'City' FROM Customers
 ```
 
-**In order to filter based on NULLs simply use IS NULL or IS NOT NULL**
+**In order to filter based on NULLs simply use IS NULL or IS NOT NULL:**
 ```sql
 SELECT CompanyName AS 'Company Name', City + ',' + Country AS 'City' FROM Customers WHERE Region IS NULL
 ```
