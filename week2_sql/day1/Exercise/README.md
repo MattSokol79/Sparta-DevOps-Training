@@ -1,6 +1,7 @@
 # Exercise - Film Tables
+Creates a film table with Borat as the example
 
-```
+```sql
 SP_HELP films
 
 CREATE TABLE films (
