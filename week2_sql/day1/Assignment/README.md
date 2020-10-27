@@ -1,9 +1,17 @@
-# Assignment - Startup bookstore
+# Assignment - Startup bookstore 
 ## ERD Diagram for the Task
 
 ![](ERD.PNG)
 
+### Create Database
+First Create your database for the task
+```sql 
+CREATE DATABASE bookstore_matt;
 ```
+
+### Create Tables
+Create the necessary tables for the task 
+```sql
 USE bookstore_matt;
 
 CREATE TABLE users(
@@ -29,7 +37,11 @@ CREATE TABLE booking(
     date_rented DATE,
     price DECIMAL(5,2)
 );
+```
+### Test Data
+- In order to determine whether we successfully created the necessary tables, input some values for users, ebooks and bookings:
 
+```sql
 INSERT INTO users(
     first_name,
     last_name,
@@ -161,8 +173,12 @@ INSERT INTO booking (
     '20190930',
     10.99
 );
+```
+### Results
+- To visualise the data inputted, run the below commands, for simple output simply do the first 3 lines and for a more complex ouput
+where each key is its individual string do the other `INNER JOIN` code
 
-
+```sql
 SELECT * FROM users;
 SELECT * FROM ebooks;
 SELECT * FROM booking;
@@ -181,3 +197,11 @@ FROM booking
 INNER JOIN users ON booking.who_rented = users.user_id
 INNER JOIN ebooks ON booking.what_ebook = ebooks.ebook_id;
 ```
+### Simple Output
+
+![](simple.PNG)
+
+
+### Complex (prettier) Output
+
+![](complex.PNG)
