@@ -298,4 +298,19 @@ which is Functionally Dependent on the Primary Key
 ![](3rdnormalform.PNG)
 
 
+## Why do I need this knowledge as a TESTER
+- Getting data for testing
+- Saving data, generated during testing activity
+- Data verifications in databases 
+  - Find data
+  - To ensure data integrity
+  - To manipulate test data for specific tasks
+- Testing Databases
 
+## Why do I need this knowledge as a DevOps Engineer
+- Environments will need databases
+- You'll actively look over the Database
+- You might need to develop (the Dev in DevOps) - As a developer you'll need to make data persistent
+
+## Why do i need this knowledge as PMO
+- OTHER INFO HERE
