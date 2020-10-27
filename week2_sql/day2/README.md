@@ -51,13 +51,17 @@ To create a valid WHERE clause you need to make sure each data type you request 
 ![](apostrophes.PNG)
 
 ### DISTINCT
-SOME CODE MISSING HERE
+**`SELECT DISTINCT` if you want to remove duplicates from data. The more columns you select, the less likely you are to need DISTINCT**
+```sql
+SELECT DISTINCT Country FROM Customers WHERE ContactTitle = 'Owner'
+```
 
 ### COUNT
-**To count the number of rows in the constraint, type `COUNT(*)` as shown below**
+**To count the number of all rows in the constraint, type `COUNT(*)` as shown below**
 
 ```sql
 SELECT COUNT(*) FROM Customers WHERE Country = 'France';
+SELECT COUNT(CompanyName, City, Fax) FROM Customers WHERE Country = 'France'
 ```
 
 ### TOP
@@ -82,4 +86,10 @@ SELECT ProductName, UnitPrice FROM Products WHERE CategoryID = 1 AND Discontinue
 - <= Less than or equal to
 - >= Greater than or equal to
 These work with numbers, but do they work with letters?
+
+### Wildcards
+Wildcards can be used as a substitute for any other characters in a string when using the LIKE operator
+
+![](wildcards.PNG)
+
 
