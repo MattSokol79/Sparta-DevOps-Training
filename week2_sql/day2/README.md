@@ -80,16 +80,50 @@ SELECT ProductName, UnitPrice FROM Products WHERE CategoryID = 1 AND Discontinue
 **Can use OR to get out info when either side are true**
 
 ### Other operators
-- <> Or != not equal to
-- < Less than
-- > More than
-- <= Less than or equal to
-- >= Greater than or equal to
+- '<>' Or != not equal to
+- '<' Less than
+- '>' More than
+- '<=' Less than or equal to
+- '>=' Greater than or equal to
 These work with numbers, but do they work with letters?
 
-### Wildcards
+### Wildcards & LIKE
 Wildcards can be used as a substitute for any other characters in a string when using the LIKE operator
+
+![](morewildcards.png)
 
 ![](wildcards.PNG)
 
+- LIKE allows for the use of wildcards and is not case sensitive
 
+**We can use the wildcard % to bring back any Products that begins with Ch**
+```sql
+SELECT ProductName FROM Products WHERE ProductName LIKE 'Ch%'
+```
+
+**If we needed to find regions ending in A**
+```sql
+SELECT * FROM Customers WHERE Region LIKE '_A'
+```
+
+**If we needed to find customers in two specific named regions**
+```sql
+SELECT * FROM Customers WHERE Region IN ('WA', 'SP')
+```
+
+**If we need to find territories in a range of IDs**
+```sql
+SELECT * FROM EmployeeTerritories WHERE TerritoryID BETWEEN 06800 AND 09999
+```
+
+**Concatenate using + along with single quotes, essentially can edit the names of the columns to nice names**
+- Alias (rename) column using AS (optional) and double quotes (if more than one word) to change column headers
+- In this example we concatenate to and from a comma and a space, e.g. "London, UK" in one resulting column
+```sql
+SELECT CompanyName AS 'Company Name', City + ',' + Country AS 'City' FROM Customers
+```
+
+**In order to filter based on NULLs simply use IS NULL or IS NOT NULL**
+```sql
+SELECT CompanyName AS 'Company Name', City + ',' + Country AS 'City' FROM Customers WHERE Region IS NULL
+```
