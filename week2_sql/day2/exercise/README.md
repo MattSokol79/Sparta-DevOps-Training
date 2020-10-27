@@ -1,19 +1,20 @@
 Question 1 - How many employees have a home City of London?
-- 6
+- 4
 ```sql
-SELECT COUNT(City) FROM Customers WHERE City = 'London'
+SELECT COUNT(City) FROM Employees WHERE City = 'London'
 ```
 
 Question 2 - Which Employee is a Doctor?
 - Andrew Fuller
 ```sql
 SELECT TitleOfCourtesy, FirstName, LastName FROM Employees WHERE TitleOfCourtesy = 'Dr.'
+SELECT * FROM Employees WHERE TitleOfCourtesy = 'Dr%'
 ```
 
 Question 3 - How many Products are discontinued?
-- 77
+- 8
 ```sql
-SELECT COUNT(Discontinued) FROM Products 
+SELECT COUNT(Discontinued) FROM Products WHERE Discontinued = 1
 ```
 
 Question 4 - What are the names and product IDs of the products with a unit price below 5.00
@@ -52,6 +53,7 @@ Question 8 - Write a SELECT statement to list the 6 countries that have Region C
 - Venezuela
 ```sql
 SELECT DISTINCT Country FROM Customers WHERE Region != 'NULL';
+SELECT DISTINCT Country FROM Customers WHERE Region IS NOT NULL;
 ```
 
 
