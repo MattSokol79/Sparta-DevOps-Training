@@ -1,4 +1,7 @@
 # Assignment - Startup bookstore
+## ERD Diagram for the Task
+
+![](ERD.PNG)
 
 ```
 USE bookstore_matt;
