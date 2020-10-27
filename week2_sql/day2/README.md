@@ -61,7 +61,7 @@ SELECT DISTINCT Country FROM Customers WHERE ContactTitle = 'Owner'
 
 ```sql
 SELECT COUNT(*) FROM Customers WHERE Country = 'France';
-SELECT COUNT(CompanyName, City, Fax) FROM Customers WHERE Country = 'France'
+SELECT COUNT(CompanyName) FROM Customers WHERE Country = 'France'
 ```
 
 ### TOP
