@@ -1,4 +1,4 @@
-# Day 3
+# Day 3 - JOINS
 ## Date Functions
 
 ![](date.PNG)
@@ -61,3 +61,21 @@ FROM Products
 GROUP BY SupplierID
 HAVING AVG(UnitsOnOrder) > 5;
 ```
+
+# JOINS
+## Objectives
+- Understand the various JOIN types available within SQL
+- Determine the differences between JOIN types using SET theory
+- Discover the power of the simple subquery
+
+## Definition
+JOIN is an SQL keyword used to combine matched rows from two or more tables. It allows you to create a list of combined rows of
+matching data from different tables. 
+
+![](matchedrows.PNG)
+
+![](venn.png)
+
+![](venn2.png)
+
+
