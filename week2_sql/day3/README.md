@@ -79,3 +79,57 @@ matching data from different tables.
 ![](venn2.png)
 
 
+### Types of JOIN
+- INNER JOIN (simple join)
+  - The most frequently used, it returns any rows where there is a matched key in BOTH tables
+- LEFT JOIN or LEFT OUTER JOIN
+  - Returns **all** rows from the left table, and the matched rows from the right table regardless of any matching entry in the
+right table
+
+
+```sql
+SELECT student.name, course.name
+FROM student INNER JOIN course ON student.courseID = course.id
+```
+
+![](innerjoin.PNG)
+
+**Table aliases are helpful when referencing multiple tables. Standard practice to use initials of the table. Be careful if more
+than one table with same initial e.g. products and prices could be prd and prc or p1 and p2.**
+```sql
+SELECT s.name, c.name
+FROM student s
+INNER JOIN course c ON s.courseID = c.id
+```
+### Exercises
+Give all customer information and order information of order that came from brazil or was shipped to brazil.
+
+**Simple Answer with all information given**
+```sql
+SELECT *
+FROM Orders
+JOIN Customers
+ON Orders.CustomerID = Customers.CustomerID
+WHERE Orders.ShipCountry = 'Brazil' OR Customers.Country = 'Brazil'
+```
+
+**More complicated including specific columns that i want joined**
+```sql
+SELECT
+    Customers.CustomerID,
+    Customers.ContactName,
+    Customers.Phone,
+    Orders.ShipCity,
+    Orders.ShipCountry
+FROM Orders
+INNER JOIN Customers on Orders.CustomerID = Customers.CustomerID
+WHERE Orders.ShipCountry = 'Brazil' OR Customers.Country = 'Brazil'
+GROUP BY 
+    Customers.CustomerID,
+    Customers.ContactName,
+    Customers.Phone,
+    Orders.ShipCity,
+    Orders.ShipCountry
+```
+
+- Can also use Aliases where Orders = o OR Customers = c to write less and speed up coding
