@@ -101,6 +101,7 @@ SELECT s.name, c.name
 FROM student s
 INNER JOIN course c ON s.courseID = c.id
 ```
+
 ### Exercises
 Give all customer information and order information of order that came from brazil or was shipped to brazil.
 
