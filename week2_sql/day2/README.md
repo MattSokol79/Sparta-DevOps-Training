@@ -175,7 +175,7 @@ SELECT TOP 2 OrderID, UnitPrice * Quantity * (1-Discount) as 'Net Total' FROM [O
 **The below code will change the table so that it shows the first part of the postal code as well as pointing out where the space
 is in the postal code in terms of the index location**
 
-- The CHARINDEX is used to find what you are looking for and then provide the INT location within the string as an INDEX number
+- The CHARINDEX is used to find what you are looking for and then provide the **INT** location within the string as an INDEX number
 
 ```sql
 SELECT PostalCode AS "Post Code", 
@@ -185,10 +185,11 @@ FROM Customers
 WHERE Country = 'UK'
 ```
 
-**The below code will look for any single apostrophe ' in the strings of the product name and only return those the names**
+**The below code will look for any single apostrophe ' in the strings of the product name and only return those names**
 ```sql
 SELECT ProductName AS 'Product Name with Apostrophe', 
 ProductID
 FROM Products
 WHERE CHARINDEX('''', ProductName) != 0;
 ```
+
