@@ -114,6 +114,7 @@ SELECT * FROM Customers WHERE Region IN ('WA', 'SP')
 **If we need to find territories in a range of IDs:**
 ```sql
 SELECT * FROM EmployeeTerritories WHERE TerritoryID BETWEEN 06800 AND 09999
+SELECT * FROM EmployeeTerritories WHERE TerritoryID >= 06800 AND TerritoryID <= 09999
 ```
 
 **Concatenate using + along with single quotes, essentially can edit the names of the columns to nice names:**
@@ -138,14 +139,56 @@ SELECT CompanyName AS 'Company Name', City + ',' + Country AS 'City' FROM Custom
 SELECT UnitPrice, Quantity, Discount, UnitPrice * Quantity AS 'Gross Total' FROM [Order Details];
 ```
 
+**When you want to change DECIMAL POINTS and add something like 'Net Total':**
+```sql
+SELECT UnitPrice, Quantity, Discount, CONVERT(DECIMAL(10,2), UnitPrice * Quantity) AS 'Gross Total',
+(UnitPrice * Quantity) * (1-Discount) AS 'Net Total'
+FROM [Order Details] 
+```
+
+**Ascending and Descending Values:**
+
 ```sql
 SELECT UnitPrice, Quantity, Discount, UnitPrice * Quantity AS 'Gross Total' FROM [Order Details] ORDER BY 'Gross Total' DESC
 ```
 DESC is short for descending 
 ASC is short for ascending 
 
+### Exercise
+Use ORDER BY to identify the highest Net Total in the Order Details table. What are the two order numbers with the highest 
+Net Total?
+```sql
+SELECT UnitPrice, OrderID, Quantity, Discount, CONVERT(DECIMAL(10,2), UnitPrice * Quantity) AS 'Gross Total',
+(UnitPrice * Quantity) * (1-Discount) AS 'Net Total'
+FROM [Order Details] ORDER BY [Net Total] DESC
+```
+OR
+
+```sql
+SELECT TOP 2 OrderID, UnitPrice * Quantity * (1-Discount) as 'Net Total' FROM [Order Details] ORDER BY 'Net Total' DESC;
+```
+
 ## String Functions 
 
 ![](stringfunctions.PNG)
 
+**The below code will change the table so that it shows the first part of the postal code as well as pointing out where the space
+is in the postal code in terms of the index location**
 
+- The CHARINDEX is used to find what you are looking for and then provide the INT location within the string as an INDEX number
+
+```sql
+SELECT PostalCode AS "Post Code", 
+LEFT (PostalCode, CHARINDEX(' ', PostalCode) - 1) AS "Post Code Region",
+CHARINDEX(' ', PostalCode) AS "Space Found", Country
+FROM Customers
+WHERE Country = 'UK'
+```
+
+**The below code will look for any single apostrophe ' in the strings of the product name and only return those the names**
+```sql
+SELECT ProductName AS 'Product Name with Apostrophe', 
+ProductID
+FROM Products
+WHERE CHARINDEX('''', ProductName) != 0;
+```
